@@ -1,8 +1,26 @@
 aid: careguide
 name: CareGuide
-description: CareGuide is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CareGuide is a Canadian company operating a network of online marketplaces that connect families
+  with caregivers across child care, home care, pet care, and elder care, alongside HeartPayroll
+  household payroll services. Its consumer brands include CanadianNanny.ca, Sitter.com, PetSitter.com,
+  ElderCare.com, HouseKeeper.com and a family of "Meet A" professional directories. Backed by 500
+  Global, CareGuide is added to the API Evangelist network as a company profile. The company does not
+  publish a public developer portal, API documentation, SDKs, or machine-readable API specifications;
+  this profile captures its public web identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/careguide/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.squarespace-cdn.com/content/v1/6187ec6bb34eac3390e05304/a7249488-a49e-4e90-ad89-145de6cd7c3a/grey+logo.png?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Care
+- Marketplace
+- Caregiving
+- Child Care
+- Elder Care
+- Pet Care
+- Payroll
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/careguide-domain-security.yml
 - type: Website
   url: https://careguide.com
+- type: Blog
+  url: https://www.careguide.com/news-ideas
+- type: Support
+  url: https://help.careguide.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://www.careguide.com/privacy
+- type: TermsOfService
+  url: https://www.careguide.com/terms-of-service
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
